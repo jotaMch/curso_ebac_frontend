@@ -1,0 +1,111 @@
+* {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(108, 3, 3);
+    padding: 16px 0;
+    color: rgb(208, 211, 214);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+header li a {
+    color: rgb(208, 211, 214);
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 140px;*/
+    width: 80%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 12px;
+}
+
+.articles article h3 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.articles article a {
+    background-color: rgb(108, 3, 3);
+    color: rgb(157, 164, 167);
+    padding: 2px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+articles article a:hover {
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 22px;
+}
+
+section h2 {
+    font-size: 28px;
+}
+
+#entertainmento {
+    background-color: rgb(102, 106, 109);
+}
+
+#entertainmento .articles article a {
+    background-color: rgb(110, 3, 3);
+}
+
+#technology {
+    background-color: rgb(67, 116, 150);
+}
+
+#technology .articles article a {
+    background-color: rgb(14, 38, 101);
+    color: rgb(157, 164, 167);
+}
+
+
+
+
+
