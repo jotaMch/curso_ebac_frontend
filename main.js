@@ -25,6 +25,7 @@ form.addEventListener('submit', function(e) {
         containerMensagemSucesso.style.display = 'block';
 
     } else {
+        numeroConta.style.border = '1px solid red';
         document.querySelector('.error-message').style.display = 'block';
     }
 })

@@ -21,13 +21,13 @@ form {
 }
 
 input {
-    border: rgb(131, 90, 94);
-    border-radius: 10px;
     background-color: rgb(179, 174, 175);
+    border-radius: 10px;
 }
 
 input, button {
     display: block;
+    border: none;
     padding: 8px;
     margin-bottom: 8px;
     width: 100%;
@@ -35,7 +35,7 @@ input, button {
 }
 
 button {
-    background-color: rgb(107, 61, 68);
+    background-color: rgb(93, 40, 48);
     border-radius: 8px;
     text-transform: uppercase;
     color: #fff;
@@ -60,7 +60,7 @@ button:hover {
 .error-message {
     font-size: 12px;
     padding: 8px;
-    background-color: rgb(76, 5, 5);
+    background-color: rgb(170, 4, 4);
     color: #fff;
     border-radius: 8px;
     margin-bottom: 8px;
