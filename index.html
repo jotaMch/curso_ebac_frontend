@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+            <h1>Formulario do curso</h1>
+            <h2>Deposito</h2>
+        <form id="form-deposito">
+                <input type="number" id="numero-conta" required placeholder="numA" />
+                <p class="error-message" id="error">
+                    o valor precisa ser menor do que o numberB
+                </p>
+                <input type="number" id="valor-deposito" required placeholder="numB" />
+                <button id="btn-depositar" type="submit">Depositar</button>
+        </form>
+        <p class="success-message"> 
+            Deposito feito com sucesso
+        </p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
