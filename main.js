@@ -37,7 +37,6 @@ function adicionaLinha() {
     inputNomeContato.value = '';
     inputNumeroContato.value = '';
 
-    atualizaContatoFinal();
 }
 
 
@@ -49,8 +48,11 @@ function atualizaTabela() {
 function atualizaContatoFinal() {
     const contatoFinal = calculaContato();
 
-    document.getElementById('nome-final-table').innerHTML = contatos;
-    document.getElementById('contato-final-table').innerHTML = numero;
+    const ultimoContato = contatos[contatos.length - 1];
+    const ultimoNumero = numero[numero.length - 1];
+
+    document.getElementById('nome-final-table').innerHTML = ultimoContato;
+    document.getElementById('contato-final-table').innerHTML = ultimoNumero;
     document.getElementById('contato-final-resultado').innerHTML = contatoFinal.length >= 9 ? spanConcluído : spanErro;
 }
 
