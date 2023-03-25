@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #646464;
+}
+
+.form {
+    padding: 48px;
+    background-color: #555454;
+    border-radius: 4px;
+}
+
+.form,
+.f-form {
+    align-items: center;
+    margin: 20px auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.f-form label {
+    font-weight: bold;
+    display: block;
+}
+
+.f-form input {
+    width: 300px;
+    padding: 6px;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 2px;
+}
+
+button {
+    background-color: #003800;
+    border: none;
+    border-radius: 4px;
+    margin-left: 100px;
+    color: #fff;
+    width: 100px;
+    padding: 8px;
+}
+
+#complemento {
+    max-width: 246px;
+}
+
+button:hover {
+    background-color: #074b07;
+    cursor: pointer;
+    text
+}
+
+#number {
+    max-width: 50px;
+}
+
