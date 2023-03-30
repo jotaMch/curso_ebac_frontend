@@ -128,6 +128,7 @@ section .container {
     .container .destaque img {
         width: 100%;
         margin-right: 0px;
+        margin-bottom: 2em;
     }
 
     .container .destaque {
