@@ -1,85 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja virtual</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Tênis Shop</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#sobre">Sobre a loja</a>
-                        </li>
-                        <li>
-                            <a href="#produtos">Produtos</a>
-                        </li>
-                    </ul>
-                </nav>
+  <div class="container">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide pb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="imagens/autumn-4667080_960_720.jpg" />
             </div>
-    </header>
-    <div class="container">
-        <main>
-            <section class="destaque">
-                <img src="./imagem/loja.jpg" alt="loja" />
-                <div>
-                    <h2 id="sobre" >Sobre a loja</h2>
-                    <p class="top">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusamus pariatur ab, cum sunt nisi qui aperiam quisquam aspernatur quos, distinctio, laudantium exercitationem nobis modi aliquid quasi! Totam, necessitatibus iure.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sed iste aliquid ipsam soluta accusantium vitae, fuga similique dignissimos amet. Iste rerum delectus provident dicta saepe possimus deleniti, doloribus rem?
-                    </p>
-                </div>
-            </section>
-        </main>
-    </div>
-    <section>
-        <div class="container">
-            <h2 id="produtos">Produtos</h2>
-            <ul class="container-flex">
-                <li>
-                    <img src="./imagem/Jordan.png" alt="Jordan" />
-                    <h3>Tênis Air Jordan 4 Retro</h3>
-                    <p>
-                        Tênis Air Jordan 4 preto, disponível nos tamanhos: 37, 38, 39 40 e 42
-                    </p>
-                    <button type="button">Adicionar ao carrinho</button>
-                </li>
-                <li>
-                    <img src="./imagem/Tênis Masculino Fila Territory.jpg" alt="Fila" />
-                    <h3>Tênis Territory Fila </h3>
-                    <p>
-                        Tênis Fila bege/preto, disponível nos tamanhos: 37, 38, 39 40 e 42
-                    </p>
-                    <button type="button">Adicionar ao carrinho</button>
-                </li>
-                <li class="final">
-                    <img src="./imagem/Tênis Prada Block Chunky Branco Cinza Marrom.png" alt="Prada" />
-                    <h3>Tênis Prada Block Chunky </h3>
-                    <p>
-                        Tênis Prada Branco/Cinza, disponível nos tamanhos: 37, 38, 39 40 e 42
-                    </p>
-                    <button type="button">Adicionar ao carrinho</button>
-                </li>
-                <li class="final">
-                    <img src="./imagem/nike.png" alt="Nike" />
-                    <h3>Tênis Nike Revolution 5 </h3>
-                    <p>
-                        Tênis Nike Infantil Preto, disponível nos tamanhos: 27, 28, 29 e 30
-                    </p>
-                    <button type="button">Adicionar ao carrinho</button>
-                </li>
-            </ul>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="imagens/tree-569275_960_720.jpg" />
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+              <img class="d-block w-100" src="imagens/tree-99852_960_720.jpg" />
+            </div>
         </div>
-    </section>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+          <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+            <div class="card text-bg-dark">
+              <img src="imagens/vertical1.jpg" />
+              <div class="card-img-overlay">
+                <h4 class="card-title">Titulo do card</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, labore. Eaque, voluptatibus animi odit officiis reiciendis quas quaerat dolorem placeat possimus excepturi?
+                </p>
+                <a href="#" class="btn btn-primary">Botâo link</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+          <div class="card text-bg-dark">
+            <img src="imagens/vertical2.jpg" />
+            <div class="card-img-overlay">
+              <h4 class="card-title">Titulo do card</h4>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, labore. Eaque, voluptatibus animi odit officiis reiciendis quas quaerat dolorem placeat possimus excepturi?
+              </p>
+              <a href="#" class="btn btn-primary">Botâo link</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+        <div class="card text-bg-dark">
+          <img src="imagens/vertical3.jpg" />
+          <div class="card-img-overlay">
+            <h4 class="card-title">Titulo do card</h4>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, labore. Eaque, voluptatibus animi odit officiis reiciendis quas quaerat dolorem placeat possimus excepturi?
+            </p>
+            <a href="#" class="btn btn-primary">Botâo link</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
