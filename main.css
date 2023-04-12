@@ -63,10 +63,34 @@ button:hover {
 @media screen and (max-width: 767px) {
     .form,
     form {
-        width: 90%
+        width: 90%;
+        margin-right: 0;
+        margin-left: 20px;
     }
 
-    .f-form input {
+    form {
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    
+    #number {
+        display: block;
+        max-width: 48px;
+    }
+
+    .form {
+        padding: 12px;
+        background-color: #555454;
+        border-radius: 4px;
+    }
+
+    .f-form input,
+    #complemento {
     max-width: 240px;
 }
 
