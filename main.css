@@ -13,7 +13,7 @@ body{
 
 .carousel-inner img {
     width: 100%;
-    height: 61em;
+    height: 750px;
 }
 
 #cabecalho .nav .nav-link.active {
@@ -63,4 +63,12 @@ span {
 
 .text-color {
     color: #4682B4;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 380px;
+    }
+
 }
