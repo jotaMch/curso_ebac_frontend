@@ -1,0 +1,14 @@
+$corPrincipal: #cfcdcd;
+$corDoTexto: blue;
+
+body {
+    background-color: $corprincipal;
+}
+
+header {
+    background-color: $corPrincipal;
+
+    h1{
+        color: $corDoTexto;
+    }
+}
