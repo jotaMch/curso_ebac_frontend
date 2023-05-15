@@ -24,13 +24,13 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-}
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+    }
 }
 
 body {
@@ -65,10 +65,10 @@ section {
     margin-top: 8px;
     text-decoration: none;
     font-weight: variaveis.$fontBold;
-}
 
-.product-button:hover {
-    background-color: variaveis.$corHoverBtn;
+    &:hover {
+        background-color: variaveis.$corHoverBtn;
+    }
 }
 
 @media screen and (max-width: 1023px) {
