@@ -7,9 +7,10 @@
 .menu li {
     font-weight: bold;
     margin-left: 24px;
+
+    a {
+        color: variaveis.$menuCor;
+        text-decoration: none;
+    }
 }
 
-.menu li a {
-    color: variaveis.$menuCor;
-    text-decoration: none;
-}

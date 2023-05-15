@@ -13,7 +13,6 @@
   font-weight: bold;
   margin-left: 24px;
 }
-
 .menu li a {
   color: #f5f6fa;
   text-decoration: none;
@@ -65,8 +64,7 @@ section {
   row-gap: 4%;
   width: 100%;
 }
-
-.product-item img {
+.products .product-item img {
   width: 100%;
   border-radius: 16px;
 }
@@ -90,7 +88,7 @@ section {
   .container {
     max-width: 80%;
   }
-  .products {
+  .container .products {
     grid-template-columns: repeat(2, 48.5%);
     column-gap: 3%;
   }
@@ -99,7 +97,7 @@ section {
   .products {
     display: block;
   }
-  .product-item {
+  .products .product-item {
     margin-bottom: 32px;
   }
   section {
