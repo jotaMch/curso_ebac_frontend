@@ -37,7 +37,7 @@ function dizOi(callback) {
 }*/
 
 exports.default = function() {
-    gulp.watch('./source/styles/*.scss', { ignoreInore: false }, gulp.series(compilaSass));
-    gulp.watch('./source/scripts/*.js', { ignoreInore: false }, gulp.series(comprimeJavaScript));
-    gulp.watch('./source/images/*', { ignoreInore: false }, gulp.series(comprimeImagens));
+    gulp.watch('./source/styles/*.scss', { ignoreInitial: false }, gulp.series(compilaSass));
+    gulp.watch('./source/scripts/*.js', { ignoreInitial: false }, gulp.series(comprimeJavaScript));
+    gulp.watch('./source/images/*', { ignoreInitial: false }, gulp.series(comprimeImagens));
 }
