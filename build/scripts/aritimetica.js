@@ -1,1 +1,1 @@
-const somar=require("./sum");console.log("Somar:",somar(10,20));
+const somar=require("./sum"),adiciona=require("./sum");adiciona(),console.log("Somar:",somar(10,20));

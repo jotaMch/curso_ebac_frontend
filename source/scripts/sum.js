@@ -31,3 +31,4 @@ function somar(a, b) {
 }
 
 module.exports = somar;
+module.exports = adiciona;
