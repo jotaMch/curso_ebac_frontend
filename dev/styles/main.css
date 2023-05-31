@@ -1,0 +1,16 @@
+body {
+  background-color: #322d41;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+input {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 8px auto;
+}
+main {
+  max-width: 400px;
+  text-align: center;
+  margin: 50px auto;
+}
