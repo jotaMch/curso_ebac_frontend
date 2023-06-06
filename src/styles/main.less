@@ -1,22 +1,25 @@
-@corDeFundo: #322d41;
+@corDeFundo: #3814a1;
 @fontPrincipal: 'Open Sans', sans-serif;
 @corDoTexto: #fff;
-
-body {
-    background-color: @corDeFundo;
-    color: @corDoTexto;
-    font-family: @fontPrincipal;
-}
-
-input {
-    display: block;
-    width: 100%;
-    max-width: 250px;
-    margin: 8px auto;
-}
 
 main {
     max-width: 400px;
     text-align: center;
     margin: 50px auto;
+    
+    body {
+        background-color: @corDeFundo;
+        color: @corDoTexto;
+        font-family: @fontPrincipal;
+
+        input {
+            display: block;
+            width: 100%;
+            max-width: 250px;
+            margin: 8px auto;
+            border-radius: 8px;
+            padding: 10px;
+        }
+    }
+    
 }
