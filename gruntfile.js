@@ -22,7 +22,7 @@ module.exports = function(grunt) {
                 tasks: ['less:development']
             },
             html : {
-                files: ['src/html.html'],
+                files: ['src/index.html'],
                 tasks: ['replace:dev']
             }
         },
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         flatten: true,
-                        src: ['index.html'],
+                        src: ['./src/index.html'],
                         dest: 'dev/'
                     }
                 ]
